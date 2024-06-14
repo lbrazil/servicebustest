@@ -17,5 +17,5 @@ resource "azurerm_servicebus_queue" "sb_queue" {
 }
 
 locals {
-  name   = "${var.app}-${var.env}${local.tenant}-${var.region.nickname}"
+  name   = "${var.app}-${var.env}-${var.region.nickname}"
 }
