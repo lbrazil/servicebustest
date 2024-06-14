@@ -17,11 +17,6 @@ variable "resource_group_name" {
   type = string
 }
 
-variable "tags" {
-  type    = map(any)
-  default = {}
-}
-
 variable "enable_partitioning" {
   type = bool
   default = false
