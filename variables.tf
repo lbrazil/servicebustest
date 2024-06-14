@@ -22,10 +22,6 @@ variable "tags" {
   default = {}
 }
 
-variable "tenant" {
-  type = string
-}
-
 variable "enable_partitioning" {
   type = bool
   default = false
