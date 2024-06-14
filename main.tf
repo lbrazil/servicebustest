@@ -18,5 +18,4 @@ resource "azurerm_servicebus_queue" "sb_queue" {
 
 locals {
   name   = "${var.app}-${var.env}${local.tenant}-${var.region.nickname}"
-  tenant = var.tenant != "prd" ? "-${var.tenant}" : ""
 }
